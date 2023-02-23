@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+body {
+    font-family: 'Outfit';
+    background-color: hsl(220, 15%, 55%);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+}
+
+.container {
+    position:absolute;
+    top:50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width:300px;
+    background:white;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.qr-code {
+    width:270px;
+    height:250px;
+    padding:15px;
+    border-radius: 30px;
+}
+
+h1 {
+    font-size: 18px;
+    font-weight:700;
+    padding: 0px 20px;
+    color:hsl(218, 44%, 22%);
+}
+
+p {
+    color:hsl(220, 15%, 55%);
+    font-size: 15px;
+    font-weight: 300;
+    padding: 5px 30px 20px 30px;
+}
